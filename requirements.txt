@@ -1,0 +1,13 @@
+# Core numerical and plotting libraries
+numpy
+plotly
+matplotlib
+
+# For saving Plotly figures as static images
+kaleido
+
+# For interactive Matplotlib plots in Jupyter
+ipympl
+
+# For running Jupyter notebooks
+jupyter
