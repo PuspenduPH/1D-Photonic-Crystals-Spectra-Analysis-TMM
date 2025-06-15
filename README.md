@@ -12,7 +12,7 @@
 This repository contains a comprehensive Jupyter notebook that explores the optical properties of one-dimensional photonic crystals (1D PhCs) using the Transfer Matrix Method (TMM). 1D PhCs, often implemented as Distributed Bragg Reflectors (DBRs), are periodic dielectric structures that manipulate light propagation through interference effects, making them valuable in applications like optical filters, mirrors, and sensors. The project systematically investigates the reflectance and transmittance spectra of 1D PhCs, analyzes the impact of structural parameters, introduces defects to create localized modes, and examines behavior under oblique incidence. The notebook includes detailed simulations, visualizations (plots and animations), and explanations of the underlying physics.
 
 The repository includes:
-- A Jupyter notebook (`tmm_1dPhC.ipynb`) with the full analysis.
+- A Jupyter notebook (`TMM_1dPhC.ipynb`) with the full analysis.
 - Folders for animations (`ANIMATION`), static images (`IMAGES`), and references (`REFERENCES`).
 - A `requirements.txt` file to set up the necessary Python environment.
 
@@ -45,7 +45,7 @@ This Jupyter notebook explores the fascinating optical properties of one-dimensi
 ├── 🎞️ ANIMATION/              # Folder containing animated visualizations of spectra
 ├── 🖼️ IMAGES/                 # Folder containing static plots and figures
 ├── 📚 REFERENCES/             # Folder containing reference material(PDFs papers, etc.)
-├── 📓 tmm_1dPhC.ipynb         # Main Jupyter notebook with the analysis
+├── 📓 TMM_1dPhC.ipynb         # Main Jupyter notebook with the analysis
 ├── 🛠️ requirements.txt        # List of required Python packages
 └── 📄 README.md               # This file
 ```
@@ -158,12 +158,12 @@ To run the notebook, ensure you have Python 3.8 or higher installed. Follow thes
 
 4. **Launch Jupyter Notebook**:
    ```bash
-   jupyter notebook tmm_1dPhC.ipynb
+   jupyter notebook TMM_1dPhC.ipynb
    ```
 
 ## 🎮 Usage
 
-1. Open `tmm_1dPhC.ipynb` in Jupyter Notebook.
+1. Open `TMM_1dPhC.ipynb` in Jupyter Notebook.
 2. Run the cells sequentially to execute the simulations and generate plots/animations.
 3. Outputs (plots, animations) will be saved in the `IMAGES` and `ANIMATION` folders, respectively.
 4. Refer to the `REFERENCES` folder for additional reading materials cited in the notebook.
@@ -193,7 +193,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📚 References
 
-Relevant papers, books, and resources are included in the `REFERENCES` folder. Key references cited in Section 4 of the notebook (`tmm_1dPhC.ipynb`) include:
+Relevant papers, books, and resources are included in the `REFERENCES` folder. Key references cited in Section 4 of the notebook (`TMM_1dPhC.ipynb`) include:
 
 - Sang, Z.-F., & Li, Z.-Y. (2007). Properties of defect modes in one-dimensional photonic crystals containing a graded defect layer. *Optics Communications, 273*(1), 162–166. https://doi.org/10.1016/j.optcom.2006.12.008
 - Xifré Pérez, E. (2007). *Design, Fabrication and Characterization of Porous Silicon Multilayer Optical Devices* (Chapter 3: Simulation programs for the analysis of multilayer media). Universitat Rovira i Virgili. ISBN: 978-84-691-0362-3. [https://tdx.cat/handle/10803/8458](https://tdx.cat/handle/10803/8458)
